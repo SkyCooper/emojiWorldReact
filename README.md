@@ -25,7 +25,7 @@ At the end of the project, you will be able to;
 ## Project Skeleton
 
 ```
-Image Gellery Project(folder)
+Project(folder)
 |
 |----README.md
 ├── public
