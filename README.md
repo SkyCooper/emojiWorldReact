@@ -60,7 +60,7 @@ You can see the visual representation of the website above.
 
 ## Resources
 
-- 🔥 You can use [`emoji.json`](./src/components/dat/emoji.json) for your own work.
+- 🔥 You can use [`emoji.json`](.src/components/data/emoji.json) for your own work.
 
 ## Support
 Open an Issue, I will check it a soon as possible 👀
