@@ -4,11 +4,11 @@
 
 ## Visualization of the Website
 
-![Form](./gallery.gif)
+![Form](./emoji.gif)
 
 ## Description
 
-Project aims to create an image gallery app using React.
+Project aims to create an emoji gallery app using React.
 
 ## Learning Outcomes
 
@@ -32,15 +32,14 @@ Image Gellery Project(folder)
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── Picture.jsx
-│    ├── pages
-│    │       ├── Homepage.jsx
-│    ├── helper
-│    │       └── data.js
-│    ├── styles
-│    │       ├── style.css
+│    │       ├── Card
+│    │             ├── Card.jsx
+│    │       ├── data
+│    │             ├── emoji.json
 │    ├── App.js
 │    ├── index.js
+│    ├── App.css
+│    ├── index.css
 └── package.json
 ```
 
@@ -61,7 +60,7 @@ You can see the visual representation of the website above.
 
 ## Resources
 
-- 🔥 You can use [`data.js`](./src/helper/data.js) for your own work.
+- 🔥 You can use [`emoji.json`](./src/components/dat/emoji.json) for your own work.
 
 ## Support
 Open an Issue, I will check it a soon as possible 👀
