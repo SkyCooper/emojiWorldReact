@@ -50,9 +50,9 @@ You can see the visual representation of the website above.
 
 ## Notes
 
-- Step 1: Create React App using `npx create-react-app image-gallery`
+- Step 1: Create React App using `npx create-react-app emoji-world`
 
-- Step 2: For images you can use [Images](./src/helper/data.js).
+- Step 2: For data you can use [`emoji.json`](./src/components/data/emoji.json).
 
 - Step 3: Push your application into your own public repo on Github
 
@@ -60,13 +60,14 @@ You can see the visual representation of the website above.
 
 ## Resources
 
-- 🔥 You can use [`emoji.json`](.src/components/data/emoji.json) for your own work.
+- 🔥 You can use [`emoji.json`](./src/components/data/emoji.json) for your own work.
 
 ## Support
 Open an Issue, I will check it a soon as possible 👀
 Don't forget to start the repo ⭐
 # <center> ⌛ Happy Coding ✍ </center>
 
+ 
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
