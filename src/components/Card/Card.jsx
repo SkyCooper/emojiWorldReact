@@ -7,8 +7,8 @@ const Card = ({ item }) => {
     <div className="container">
       <p className="emoji-img">{char}</p>
       <p className="emoji-name">{name}</p>
-      <p className="emoji-category">
-        Emoji Category⬇️
+      <br />
+      <p className="emoji-category"> Category:
         <br />
         {category}
       </p>

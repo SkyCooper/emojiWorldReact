@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-.App {
+
+
+.app {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +18,7 @@
 }
 h1 {
   font-size: 4rem;
-  color: rgba(6, 55, 39, 0.459);
+  color: rgba(34, 189, 137, 0.459);
 }
 input {
   width: 60%;
@@ -25,10 +27,12 @@ input {
   overflow: hidden;
   border: none;
   background-color: rgba(3, 34, 3, 0.221);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(81, 180, 76, 0.24) 3px 3px 3px 12px;
   border-radius: 5px;
   outline: none;
   cursor: pointer;
+  padding: 2rem;
+  margin-top: 2rem;
 }
 .header {
   width: 100%;
@@ -49,7 +53,7 @@ input {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(3, 34, 3, 0.221);
+  background-color: rgba(208, 220, 78, 0.221);
   text-align: center;
   width: 20%;
   height: 400px;
@@ -58,6 +62,7 @@ input {
   border-radius: 20px;
 }
 .emoji-img {
+  margin-bottom: 6rem;
   font-size: 4rem;
   animation: cooper 2s linear infinite;
 }
@@ -80,12 +85,12 @@ input {
 
 @keyframes cooper {
   0% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   50% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 }

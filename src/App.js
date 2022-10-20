@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const App = () => {
   const [search, setSearch] = useState("");
-  const [data, setData] = useState("");
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const newData = emoji.filter((item) =>
@@ -14,7 +14,7 @@ const App = () => {
     setData(newData);
   }, [search]);
   return (
-    <div className="App">
+    <div className="app">
       <div className="header">
         <h1> 👉 Emoji Search 😉</h1>
         <input
@@ -26,9 +26,9 @@ const App = () => {
         />
       </div>
       <div className="card-container">
-        {emoji.map((item) => {
-          return <Card key={uuid()} item={item} />;
-        })}
+        {data.map((item) => (
+          <Card key={uuid()} item={item} />
+        ))}
       </div>
     </div>
   );
