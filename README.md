@@ -1,4 +1,4 @@
-# Project : Template
+# Project : Emoji World
 
 ## ⏬ Check The Live Website ⏬ <h1>https://cooper-emoji-world.vercel.app<h1/>
 
